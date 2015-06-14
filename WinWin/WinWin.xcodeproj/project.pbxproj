@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2752DD791B2D66B1001233D0 /* WINTagsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752DD781B2D66B1001233D0 /* WINTagsListViewController.m */; };
+		2752DD7F1B2D7DC3001233D0 /* WINSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752DD7E1B2D7DC3001233D0 /* WINSettingsViewController.m */; };
+		2752DD821B2D8C27001233D0 /* WINImageMockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752DD811B2D8C27001233D0 /* WINImageMockViewController.m */; };
+		2752DD851B2DBCE0001233D0 /* WINManualReceiptEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752DD841B2DBCE0001233D0 /* WINManualReceiptEntryViewController.m */; };
+		2758CAAD1B2A1DEA0074D0AC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAAB1B2A1DEA0074D0AC /* Bolts.framework */; };
+		2758CAAE1B2A1DEA0074D0AC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAAC1B2A1DEA0074D0AC /* Parse.framework */; };
+		2758CAB01B2A1E9D0074D0AC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAAF1B2A1E9D0074D0AC /* Social.framework */; };
+		2758CAB21B2A1F1A0074D0AC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAB11B2A1F1A0074D0AC /* libsqlite3.0.dylib */; };
+		2758CAB41B2A1F2D0074D0AC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAB31B2A1F2D0074D0AC /* StoreKit.framework */; };
+		2758CAB61B2A1F380074D0AC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAB51B2A1F380074D0AC /* Accounts.framework */; };
+		2758CAB81B2A1F3E0074D0AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2758CAB71B2A1F3E0074D0AC /* CoreLocation.framework */; };
+		275CE44D1B2C3D29000F5258 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CE44A1B2C3D29000F5258 /* NSString+Validation.m */; };
+		275CE44E1B2C3D29000F5258 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CE44C1B2C3D29000F5258 /* UIImage+Extensions.m */; };
+		275CE4531B2C41D6000F5258 /* UITextFieldHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CE4521B2C41D6000F5258 /* UITextFieldHelper.m */; };
+		275CE4571B2C6CB9000F5258 /* WINUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CE4561B2C6CB9000F5258 /* WINUser.m */; };
+		275CE45A1B2C6E48000F5258 /* NSUserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CE4591B2C6E48000F5258 /* NSUserDefaultsHelper.m */; };
+		B80B039D1B27294400F86A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B039C1B27294400F86A77 /* main.m */; };
+		B80B03A01B27294400F86A77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B039F1B27294400F86A77 /* AppDelegate.m */; };
+		B80B03A31B27294400F86A77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B03A21B27294400F86A77 /* ViewController.m */; };
+		B80B03A61B27294400F86A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80B03A41B27294400F86A77 /* Main.storyboard */; };
+		B80B03A81B27294400F86A77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80B03A71B27294400F86A77 /* Images.xcassets */; };
+		B80B03AB1B27294400F86A77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80B03A91B27294400F86A77 /* LaunchScreen.xib */; };
+		B80B03B71B27294400F86A77 /* WinWinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80B03B61B27294400F86A77 /* WinWinTests.m */; };
+		B836622A1B2D807F0086AD5F /* WINAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = B83662291B2D807F0086AD5F /* WINAlarm.m */; };
+		B8A4FD621B2C346300FE94B3 /* WINLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A4FD611B2C346300FE94B3 /* WINLoginViewController.m */; };
+		B8A4FD661B2C351A00FE94B3 /* WINMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A4FD651B2C351A00FE94B3 /* WINMenuViewController.m */; };
+		F03313F61B2750C600939D9A /* WINQrCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03313F51B2750C600939D9A /* WINQrCodeReaderViewController.m */; };
+		F03313FC1B27732A00939D9A /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F03313FB1B27732A00939D9A /* beep.mp3 */; };
+		F551E12BE63374A583C22A8B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C07F45A110FD4E43F0AAFB0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B80B03B11B27294400F86A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80B038F1B27294400F86A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80B03961B27294400F86A77;
+			remoteInfo = WinWin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2752DD771B2D66B1001233D0 /* WINTagsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WINTagsListViewController.h; sourceTree = "<group>"; };
+		2752DD781B2D66B1001233D0 /* WINTagsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WINTagsListViewController.m; sourceTree = "<group>"; };
+		2752DD7D1B2D7DC3001233D0 /* WINSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WINSettingsViewController.h; path = Menu/WINSettingsViewController.h; sourceTree = "<group>"; };
+		2752DD7E1B2D7DC3001233D0 /* WINSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WINSettingsViewController.m; path = Menu/WINSettingsViewController.m; sourceTree = "<group>"; };
+		2752DD801B2D8C27001233D0 /* WINImageMockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WINImageMockViewController.h; path = Menu/WINImageMockViewController.h; sourceTree = "<group>"; };
+		2752DD811B2D8C27001233D0 /* WINImageMockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WINImageMockViewController.m; path = Menu/WINImageMockViewController.m; sourceTree = "<group>"; };
+		2752DD831B2DBCE0001233D0 /* WINManualReceiptEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WINManualReceiptEntryViewController.h; sourceTree = "<group>"; };
+		2752DD841B2DBCE0001233D0 /* WINManualReceiptEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WINManualReceiptEntryViewController.m; sourceTree = "<group>"; };
+		2758CAAB1B2A1DEA0074D0AC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2758CAAC1B2A1DEA0074D0AC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2758CAAF1B2A1E9D0074D0AC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2758CAB11B2A1F1A0074D0AC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		2758CAB31B2A1F2D0074D0AC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2758CAB51B2A1F380074D0AC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2758CAB71B2A1F3E0074D0AC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		275CE4491B2C3D29000F5258 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		275CE44A1B2C3D29000F5258 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		275CE44B1B2C3D29000F5258 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		275CE44C1B2C3D29000F5258 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		275CE44F1B2C3EBB000F5258 /* WINPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WINPrefixHeader.pch; sourceTree = "<group>"; };
+		275CE4511B2C41D6000F5258 /* UITextFieldHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldHelper.h; sourceTree = "<group>"; };
+		275CE4521B2C41D6000F5258 /* UITextFieldHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldHelper.m; sourceTree = "<group>"; };
+		275CE4551B2C6CB9000F5258 /* WINUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WINUser.h; sourceTree = "<group>"; };
+		275CE4561B2C6CB9000F5258 /* WINUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WINUser.m; sourceTree = "<group>"; };
+		275CE4581B2C6E48000F5258 /* NSUserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsHelper.h; sourceTree = "<group>"; };
+		275CE4591B2C6E48000F5258 /* NSUserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsHelper.m; sourceTree = "<group>"; };
+		4C67BDEA22CFC77FCFC229B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		67B1DC48EB3EA55B4CF7070B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8C07F45A110FD4E43F0AAFB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80B03971B27294400F86A77 /* WinWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80B039B1B27294400F86A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80B039C1B27294400F86A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B80B039E1B27294400F86A77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B80B039F1B27294400F86A77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B80B03A11B27294400F86A77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B80B03A21B27294400F86A77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B80B03A51B27294400F86A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B80B03A71B27294400F86A77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B80B03AA1B27294400F86A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B80B03B01B27294400F86A77 /* WinWinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinWinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80B03B51B27294400F86A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80B03B61B27294400F86A77 /* WinWinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinWinTests.m; sourceTree = "<group>"; };
+		B83662281B2D807F0086AD5F /* WINAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WINAlarm.h; sourceTree = "<group>"; };
+		B83662291B2D807F0086AD5F /* WINAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WINAlarm.m; sourceTree = "<group>"; };
+		B8A4FD601B2C346300FE94B3 /* WINLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WINLoginViewController.h; path = Login/WINLoginViewController.h; sourceTree = "<group>"; };
+		B8A4FD611B2C346300FE94B3 /* WINLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WINLoginViewController.m; path = Login/WINLoginViewController.m; sourceTree = "<group>"; };
+		B8A4FD641B2C351A00FE94B3 /* WINMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WINMenuViewController.h; path = Menu/WINMenuViewController.h; sourceTree = "<group>"; };
+		B8A4FD651B2C351A00FE94B3 /* WINMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WINMenuViewController.m; path = Menu/WINMenuViewController.m; sourceTree = "<group>"; };
+		F03313F41B2750C600939D9A /* WINQrCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WINQrCodeReaderViewController.h; sourceTree = "<group>"; };
+		F03313F51B2750C600939D9A /* WINQrCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WINQrCodeReaderViewController.m; sourceTree = "<group>"; };
+		F03313FB1B27732A00939D9A /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80B03941B27294400F86A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2758CAB81B2A1F3E0074D0AC /* CoreLocation.framework in Frameworks */,
+				2758CAB61B2A1F380074D0AC /* Accounts.framework in Frameworks */,
+				2758CAB41B2A1F2D0074D0AC /* StoreKit.framework in Frameworks */,
+				2758CAB21B2A1F1A0074D0AC /* libsqlite3.0.dylib in Frameworks */,
+				2758CAB01B2A1E9D0074D0AC /* Social.framework in Frameworks */,
+				F551E12BE63374A583C22A8B /* libPods.a in Frameworks */,
+				2758CAAE1B2A1DEA0074D0AC /* Parse.framework in Frameworks */,
+				2758CAAD1B2A1DEA0074D0AC /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80B03AD1B27294400F86A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E219EAF65E389489A7B0E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2758CAB51B2A1F380074D0AC /* Accounts.framework */,
+				2758CAB71B2A1F3E0074D0AC /* CoreLocation.framework */,
+				8C07F45A110FD4E43F0AAFB0 /* libPods.a */,
+				2758CAB11B2A1F1A0074D0AC /* libsqlite3.0.dylib */,
+				2758CAAF1B2A1E9D0074D0AC /* Social.framework */,
+				2758CAB31B2A1F2D0074D0AC /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2758CAA61B2A1C700074D0AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2758CAAB1B2A1DEA0074D0AC /* Bolts.framework */,
+				2758CAAC1B2A1DEA0074D0AC /* Parse.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		275CE4471B2C3D29000F5258 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				275CE4481B2C3D29000F5258 /* Categories */,
+				275CE4501B2C41D6000F5258 /* Helpers */,
+				275CE4541B2C6C9C000F5258 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		275CE4481B2C3D29000F5258 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				275CE4491B2C3D29000F5258 /* NSString+Validation.h */,
+				275CE44A1B2C3D29000F5258 /* NSString+Validation.m */,
+				275CE44B1B2C3D29000F5258 /* UIImage+Extensions.h */,
+				275CE44C1B2C3D29000F5258 /* UIImage+Extensions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		275CE4501B2C41D6000F5258 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				275CE4511B2C41D6000F5258 /* UITextFieldHelper.h */,
+				275CE4521B2C41D6000F5258 /* UITextFieldHelper.m */,
+				275CE4581B2C6E48000F5258 /* NSUserDefaultsHelper.h */,
+				275CE4591B2C6E48000F5258 /* NSUserDefaultsHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		275CE4541B2C6C9C000F5258 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				275CE4551B2C6CB9000F5258 /* WINUser.h */,
+				275CE4561B2C6CB9000F5258 /* WINUser.m */,
+				B83662281B2D807F0086AD5F /* WINAlarm.h */,
+				B83662291B2D807F0086AD5F /* WINAlarm.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B59EF8F65F676EB51BF6A2AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C67BDEA22CFC77FCFC229B4 /* Pods.debug.xcconfig */,
+				67B1DC48EB3EA55B4CF7070B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B80B038E1B27294400F86A77 = {
+			isa = PBXGroup;
+			children = (
+				B80B03991B27294400F86A77 /* WinWin */,
+				B80B03B31B27294400F86A77 /* WinWinTests */,
+				B80B03981B27294400F86A77 /* Products */,
+				B59EF8F65F676EB51BF6A2AD /* Pods */,
+				1E219EAF65E389489A7B0E0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B80B03981B27294400F86A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80B03971B27294400F86A77 /* WinWin.app */,
+				B80B03B01B27294400F86A77 /* WinWinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80B03991B27294400F86A77 /* WinWin */ = {
+			isa = PBXGroup;
+			children = (
+				B80B039E1B27294400F86A77 /* AppDelegate.h */,
+				B80B039F1B27294400F86A77 /* AppDelegate.m */,
+				B80B03A41B27294400F86A77 /* Main.storyboard */,
+				B80B03A91B27294400F86A77 /* LaunchScreen.xib */,
+				B80B03A71B27294400F86A77 /* Images.xcassets */,
+				B80B03A11B27294400F86A77 /* ViewController.h */,
+				B80B03A21B27294400F86A77 /* ViewController.m */,
+				2752DD831B2DBCE0001233D0 /* WINManualReceiptEntryViewController.h */,
+				2752DD841B2DBCE0001233D0 /* WINManualReceiptEntryViewController.m */,
+				F03313F41B2750C600939D9A /* WINQrCodeReaderViewController.h */,
+				F03313F51B2750C600939D9A /* WINQrCodeReaderViewController.m */,
+				2752DD771B2D66B1001233D0 /* WINTagsListViewController.h */,
+				2752DD781B2D66B1001233D0 /* WINTagsListViewController.m */,
+				275CE4471B2C3D29000F5258 /* Classes */,
+				B8A4FD5F1B2C33DC00FE94B3 /* Login */,
+				B8A4FD631B2C34E300FE94B3 /* Menu */,
+				2758CAA61B2A1C700074D0AC /* Frameworks */,
+				B80B039A1B27294400F86A77 /* Supporting Files */,
+			);
+			path = WinWin;
+			sourceTree = "<group>";
+		};
+		B80B039A1B27294400F86A77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03313FB1B27732A00939D9A /* beep.mp3 */,
+				B80B039B1B27294400F86A77 /* Info.plist */,
+				B80B039C1B27294400F86A77 /* main.m */,
+				275CE44F1B2C3EBB000F5258 /* WINPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80B03B31B27294400F86A77 /* WinWinTests */ = {
+			isa = PBXGroup;
+			children = (
+				B80B03B61B27294400F86A77 /* WinWinTests.m */,
+				B80B03B41B27294400F86A77 /* Supporting Files */,
+			);
+			path = WinWinTests;
+			sourceTree = "<group>";
+		};
+		B80B03B41B27294400F86A77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80B03B51B27294400F86A77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A4FD5F1B2C33DC00FE94B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4FD601B2C346300FE94B3 /* WINLoginViewController.h */,
+				B8A4FD611B2C346300FE94B3 /* WINLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B8A4FD631B2C34E300FE94B3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4FD641B2C351A00FE94B3 /* WINMenuViewController.h */,
+				B8A4FD651B2C351A00FE94B3 /* WINMenuViewController.m */,
+				2752DD7D1B2D7DC3001233D0 /* WINSettingsViewController.h */,
+				2752DD7E1B2D7DC3001233D0 /* WINSettingsViewController.m */,
+				2752DD801B2D8C27001233D0 /* WINImageMockViewController.h */,
+				2752DD811B2D8C27001233D0 /* WINImageMockViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80B03961B27294400F86A77 /* WinWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80B03BA1B27294400F86A77 /* Build configuration list for PBXNativeTarget "WinWin" */;
+			buildPhases = (
+				2E2DF89B2747E83E97E091B2 /* Check Pods Manifest.lock */,
+				B80B03931B27294400F86A77 /* Sources */,
+				B80B03941B27294400F86A77 /* Frameworks */,
+				B80B03951B27294400F86A77 /* Resources */,
+				8EE67F07FE792545D88BDD6A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinWin;
+			productName = WinWin;
+			productReference = B80B03971B27294400F86A77 /* WinWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B80B03AF1B27294400F86A77 /* WinWinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80B03BD1B27294400F86A77 /* Build configuration list for PBXNativeTarget "WinWinTests" */;
+			buildPhases = (
+				B80B03AC1B27294400F86A77 /* Sources */,
+				B80B03AD1B27294400F86A77 /* Frameworks */,
+				B80B03AE1B27294400F86A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80B03B21B27294400F86A77 /* PBXTargetDependency */,
+			);
+			name = WinWinTests;
+			productName = WinWinTests;
+			productReference = B80B03B01B27294400F86A77 /* WinWinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80B038F1B27294400F86A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GENERiO;
+				TargetAttributes = {
+					B80B03961B27294400F86A77 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5BT2AHGAT6;
+					};
+					B80B03AF1B27294400F86A77 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B80B03961B27294400F86A77;
+					};
+				};
+			};
+			buildConfigurationList = B80B03921B27294400F86A77 /* Build configuration list for PBXProject "WinWin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80B038E1B27294400F86A77;
+			productRefGroup = B80B03981B27294400F86A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80B03961B27294400F86A77 /* WinWin */,
+				B80B03AF1B27294400F86A77 /* WinWinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80B03951B27294400F86A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80B03A61B27294400F86A77 /* Main.storyboard in Resources */,
+				B80B03AB1B27294400F86A77 /* LaunchScreen.xib in Resources */,
+				F03313FC1B27732A00939D9A /* beep.mp3 in Resources */,
+				B80B03A81B27294400F86A77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80B03AE1B27294400F86A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E2DF89B2747E83E97E091B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE67F07FE792545D88BDD6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80B03931B27294400F86A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275CE44D1B2C3D29000F5258 /* NSString+Validation.m in Sources */,
+				F03313F61B2750C600939D9A /* WINQrCodeReaderViewController.m in Sources */,
+				275CE44E1B2C3D29000F5258 /* UIImage+Extensions.m in Sources */,
+				275CE45A1B2C6E48000F5258 /* NSUserDefaultsHelper.m in Sources */,
+				B836622A1B2D807F0086AD5F /* WINAlarm.m in Sources */,
+				275CE4571B2C6CB9000F5258 /* WINUser.m in Sources */,
+				2752DD7F1B2D7DC3001233D0 /* WINSettingsViewController.m in Sources */,
+				B80B03A31B27294400F86A77 /* ViewController.m in Sources */,
+				2752DD791B2D66B1001233D0 /* WINTagsListViewController.m in Sources */,
+				2752DD851B2DBCE0001233D0 /* WINManualReceiptEntryViewController.m in Sources */,
+				B8A4FD661B2C351A00FE94B3 /* WINMenuViewController.m in Sources */,
+				B80B03A01B27294400F86A77 /* AppDelegate.m in Sources */,
+				2752DD821B2D8C27001233D0 /* WINImageMockViewController.m in Sources */,
+				275CE4531B2C41D6000F5258 /* UITextFieldHelper.m in Sources */,
+				B80B039D1B27294400F86A77 /* main.m in Sources */,
+				B8A4FD621B2C346300FE94B3 /* WINLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80B03AC1B27294400F86A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80B03B71B27294400F86A77 /* WinWinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80B03B21B27294400F86A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80B03961B27294400F86A77 /* WinWin */;
+			targetProxy = B80B03B11B27294400F86A77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80B03A41B27294400F86A77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80B03A51B27294400F86A77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B80B03A91B27294400F86A77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80B03AA1B27294400F86A77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80B03B81B27294400F86A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHARALAMPOS SPYROPOULOS (3X7Z88768Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CHARALAMPOS SPYROPOULOS (3X7Z88768Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80B03B91B27294400F86A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80B03BB1B27294400F86A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C67BDEA22CFC77FCFC229B4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CHARALAMPOS SPYROPOULOS (3X7Z88768Y)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WinWin/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WinWin/WINPrefixHeader.pch;
+				INFOPLIST_FILE = WinWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+			};
+			name = Debug;
+		};
+		B80B03BC1B27294400F86A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B1DC48EB3EA55B4CF7070B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WinWin/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WinWin/WINPrefixHeader.pch;
+				INFOPLIST_FILE = WinWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+			};
+			name = Release;
+		};
+		B80B03BE1B27294400F86A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHARALAMPOS SPYROPOULOS (3X7Z88768Y)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WinWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWin.app/WinWin";
+			};
+			name = Debug;
+		};
+		B80B03BF1B27294400F86A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WinWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ac22d4e-c3f5-4a5f-be71-f225fce6cd7f";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinWin.app/WinWin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80B03921B27294400F86A77 /* Build configuration list for PBXProject "WinWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80B03B81B27294400F86A77 /* Debug */,
+				B80B03B91B27294400F86A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80B03BA1B27294400F86A77 /* Build configuration list for PBXNativeTarget "WinWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80B03BB1B27294400F86A77 /* Debug */,
+				B80B03BC1B27294400F86A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80B03BD1B27294400F86A77 /* Build configuration list for PBXNativeTarget "WinWinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80B03BE1B27294400F86A77 /* Debug */,
+				B80B03BF1B27294400F86A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80B038F1B27294400F86A77 /* Project object */;
+}
