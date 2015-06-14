@@ -1,0 +1,20 @@
+RESET - FOR DEBUGGING
+=====================
+curl -X POST -H "X-Parse-Application-Id: NJchMUp3VncVpCU4VVSe5iS2IrxMgS89PIf0DTcS" -H "X-Parse-REST-API-Key: s7KUns4342hYa2CyaLEbP6IkVLe30U0cwr9bgKaK" -H "Content-Type: application/json" https://api.parse.com/1/functions/resetReceipt
+
+STORE RECEIPT BY CUSTOMER
+=========================
+curl -X POST \
+-H "X-Parse-Application-Id: NJchMUp3VncVpCU4VVSe5iS2IrxMgS89PIf0DTcS" \
+-H "X-Parse-REST-API-Key: s7KUns4342hYa2CyaLEbP6IkVLe30U0cwr9bgKaK" \
+-H "Content-Type: application/json" \
+-d '{"MY_VAT":101778030,"SELLER_VAT":800426779,"NUM":133,"DATETIME":"2015-06-04T19:13","COST":22.84,"VATCOST":2.63}' \
+https://api.parse.com/1/functions/storeReceiptByCustomer
+
+STORE RECEIPT BY SELLER (MASSIVE UPLOAD)
+========================================
+curl -X POST -H "X-Parse-Application-Id: NJchMUp3VncVpCU4VVSe5iS2IrxMgS89PIf0DTcS" -H "X-Parse-REST-API-Key: s7KUns4342hYa2CyaLEbP6IkVLe30U0cwr9bgKaK" -H "Content-Type: application/json" -d '{"SELLER_VAT":800426779,"NUM":133,"DATETIME":"2015-06-04T19:13","COST":22.84,"VATCOST":2.631}' https://api.parse.com/1/functions/storeReceiptBySeller
+
+OPENDATA
+========
+curl -X POST -H "X-Parse-Application-Id: NJchMUp3VncVpCU4VVSe5iS2IrxMgS89PIf0DTcS" -H "X-Parse-REST-API-Key: s7KUns4342hYa2CyaLEbP6IkVLe30U0cwr9bgKaK" -H "Content-Type: application/json" https://api.parse.com/1/functions/opendata 
